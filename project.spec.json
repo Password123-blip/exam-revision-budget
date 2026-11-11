@@ -1,0 +1,69 @@
+{
+  "slug": "exam-revision-budget",
+  "title": "Exam Revision Budget",
+  "tagline": "Split your study hours like money",
+  "description": "Split your study hours like money.",
+  "category": "Education",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "sessions",
+    "singular": "session",
+    "plural": "sessions",
+    "fields": [
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text",
+        "required": true,
+        "placeholder": "Polity"
+      },
+      {
+        "name": "minutes",
+        "label": "Minutes studied",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "text",
+        "required": true,
+        "placeholder": "Fundamental Rights"
+      },
+      {
+        "name": "confidence",
+        "label": "Confidence 1-5",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "studied_on",
+        "label": "Studied on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\u23f3",
+      "title": "Hours per subject",
+      "body": "See where the time actually went, not where you think it went."
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "Confidence tracking",
+      "body": "Rate each topic so weak areas surface on their own."
+    },
+    {
+      "icon": "\ud83c\udfaf",
+      "title": "Built for competitive exams",
+      "body": "UPSC, SSC, GATE \u2014 same shape of problem."
+    }
+  ],
+  "seed": []
+}
